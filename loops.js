@@ -3,9 +3,9 @@
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
 const ew = ['black', 'gray', 'red'];
 
-const printToDom = (toPrint, divId) => {
-    document.getElementById(divId).innerHTML += toPrint;
-}
+//const printToDom = (toPrint, divId) => {
+  //  document.getElementById(divId).innerHTML += toPrint;
+//}
 
 const printRainbow = (colorArr) => {
     for (let i = 0; i < colorArr.length; i++) {
